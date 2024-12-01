@@ -1,0 +1,21 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Book Store Backend ",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --watch **/**.ts --exec npx ts-node ./server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Krish Nayyar",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^5.0.0",
+    "@types/nodemon": "^1.19.6",
+    "express": "^4.21.1",
+    "nodemon": "^3.1.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1"
+  }
+}
